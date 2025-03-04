@@ -1,0 +1,42 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+
+# Ignore environment folders
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore ClearML configuration (if contains sensitive info)
+clearml.conf
+
+# Ignore model artifacts
+models/*.pkl
+models/*.h5
+models/*.onnx
+models/*.tflite
+
+# Ignore logs and temp files
+logs/
+*.log
+*.out
+*.tmp
+
+# Ignore datasets (optional)
+data/
+*.csv
+*.json
+*.parquet
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore ClearML cache & artifacts (optional)
+clearml_cache/
