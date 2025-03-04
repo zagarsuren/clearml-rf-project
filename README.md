@@ -47,9 +47,9 @@ To train the Random Forest Classifier, run:
 ```bash
 python pipeline/train.py
 ```
-This will: 
-✅ Train the model
-✅ Log hyperparameters & metrics in ClearML
+This will:  <br>
+✅ Train the model <br>
+✅ Log hyperparameters & metrics in ClearML <br>
 ✅ Save the model in models/random_forest.pkl
 
 ### 4️⃣ Run Inference
@@ -57,8 +57,8 @@ To test the trained model, run:
 ```bash
 python pipeline/inference.py
 ```
-This will: 
-✅ Load the trained model
+This will:  <br>
+✅ Load the trained model <br>
 ✅ Predict class labels for a sample input
 
 ### 5️⃣ Automate with ClearML Pipeline
@@ -76,8 +76,8 @@ To schedule and run the MLOps pipeline, execute:
 ```bash
 python pipeline/clearml_pipeline.py
 ```
-This will: 
-✅ Queue training and inference tasks
+This will:  <br>
+✅ Queue training and inference tasks <br>
 ✅ Execute them automatically via ClearML Agents
 
 ### 6️⃣ Deploy ClearML Agent
