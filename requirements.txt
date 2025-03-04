@@ -1,0 +1,15 @@
+# Core dependencies
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
+PIL
+
+# ClearML dependencies
+clearml
+clearml-agent
+
+# Additional dependencies for automation (if needed)
+requests
